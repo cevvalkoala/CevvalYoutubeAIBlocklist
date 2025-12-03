@@ -1,5 +1,4 @@
-﻿Ctrl::  ; Here we have 1-letter shortcuts to switch to frequently used apps
-If (A_ThisHotkey == A_PriorHotkey && 51 < A_TimeSincePriorHotkey && A_TimeSincePriorHotkey <= 500)  ; Check if ctrl was hit twice in short sequence.
+﻿If (TaskSwitch = "q")  ; Add the AI music channels on Youtube to a blocking list for ublock
 {
 Clipboard :=
 WinActivate, Firefox
@@ -28,7 +27,8 @@ RegExMatch(downloadyoutubepage, "i)<link[^>]*\brel\s*=\s*[""']canonical[""'][^>]
         If (youtubeAIchannelid1 = "")
 RegExMatch(downloadyoutubepage, """channelId"":""(UC[A-Za-z0-9_\-]+)""", youtubeAIchannelid)
 
-RegExMatch(downloadyoutubepage, """canonicalBaseUrl"":""/(@[^/\""]+)""", youtubeAIusername)  ; Get the user name from page source
+RegExMatch(downloadyoutubepage, """canonicalBaseUrl"":""/(?:@|c/)([^/\""]+)""", youtubeAIusername)
+  ; Get the user name from page source
 
 ; Write the block rules
 youtubeAIblockrulec1 := "youtube.com##ytd-video-renderer:has(a[href*=""" . youtubeAIchannelid1 . """])"
