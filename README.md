@@ -17,5 +17,9 @@ CevvalYoutubeAIChannels.ahk is the [Autohotkey](https://www.autohotkey.com/) v1 
 
 The script adds those 4 lines to a text file named "CevvalYoutubeAIblocklist.txt" in the same folder with the script. That's the file I use to update the list you see here. Obviously, the lines you created using the script aren't added to the list served here. To do that, you'll have to send them to me, and I'll add them to the list. I guess github has some other mechanism to update files as a community, but I'm pretty new to these stuff.
 
+## Some Other AI Blocklists
+* [Stevo's GenAI Blocklist](https://github.com/Stevoisiak/Stevos-GenAI-Blocklist) Set of uBlock Origin filters intended to hide generative AI features on various websites.
+* [AI uBlock Origin Blacklist](https://github.com/alvi-se/ai-ublock-blacklist) A uBlock Origin blocklist of AI content farms.
+
 ## Contact
-Your recommendations and ideas are most welcome: cevval@cevvalkoala.com
+Your recommendations and ideas are most welcome via the [issues](https://github.com/cevvalkoala/CevvalYoutubeAIBlocklist/issues) thingie on top of the page, or at cevval[at]cevvalkoala.com
