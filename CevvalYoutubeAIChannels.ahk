@@ -44,6 +44,9 @@ FileRead, existingyoutubeblockrules, %youtubeblocklogfile%
 
 If !InStr(existingyoutubeblockrules, youtubeAIchannelid1)  ; If there are no duplicates, append these new rules into the file
     FileAppend, %Clipboard%`n, %youtubeblocklogfile%
+    
+If !UpdateLastUpdatedInPlace(youtubeblocklogfile)
+    MsgBox, 16, Error, Could not find/update "! Last updated:" line.
 }
 
 
@@ -53,4 +56,27 @@ whr := ComObjCreate("WinHttp.WinHttpRequest.5.1")
 whr.Open("GET", youtubeurl, false)
 whr.Send()
 Return whr.ResponseText
+}
+
+
+; Subroutine to update the last update date
+UpdateLastUpdatedInPlace(YTBlockListPath) {
+    FormatTime, YTBlockListUpdateToday,, yyyy-MM-dd  ; always 10 chars
+    YTBlockListUpdatePrefix := "! Last updated: "     ; 16 chars (ASCII)
+    YTBlockListFile := FileOpen(YTBlockListPath, "rw", "UTF-8-RAW")
+    If !IsObject(YTBlockListFile)
+        Return False
+    While !YTBlockListFile.AtEOF {
+        lineStart := YTBlockListFile.Pos
+        line := YTBlockListFile.ReadLine()  ; reads one line, no CRLF in returned text
+        If (SubStr(line, 1, StrLen(YTBlockListUpdatePrefix)) = YTBlockListUpdatePrefix) {
+            ; Seek to first date character and overwrite only 10 chars
+            YTBlockListFile.Pos := lineStart + StrLen(YTBlockListUpdatePrefix)
+            YTBlockListFile.Write(YTBlockListUpdateToday)
+            YTBlockListFile.Close()
+            Return True
+        }
+    }
+    YTBlockListFile.Close()
+    Return False
 }

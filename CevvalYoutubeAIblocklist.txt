@@ -1,6 +1,6 @@
 ! Title: Cevval YouTube AI Music Blocklist
 ! Description: Block AI-generated music spam from appearing in youtube search results
-! Last updated: 2025-11-28
+! Last updated: 2026-03-12
 ! Expires: 1 week (update frequency)
 ! Homepage: https://github.com/cevvalkoala/CevvalYoutubeAIBlocklist/tree/main
 ! Maintained by CevvalKoala
@@ -2029,3 +2029,7 @@ youtube.com##ytd-video-renderer:has(a[href*="UCSL-Myeg515trvPGRjwMYHA"])
 youtube.com##ytd-grid-video-renderer:has(a[href*="UCSL-Myeg515trvPGRjwMYHA"])
 youtube.com##ytd-video-renderer:has(a[href*="DreamyTunes4very1"])
 youtube.com##ytd-grid-video-renderer:has(a[href*="DreamyTunes4very1"])
+youtube.com##ytd-video-renderer:has(a[href*="UCMRK0Ed99zIuftdH-F_gRLA"])
+youtube.com##ytd-grid-video-renderer:has(a[href*="UCMRK0Ed99zIuftdH-F_gRLA"])
+youtube.com##ytd-video-renderer:has(a[href*="VoiceAISUNO"])
+youtube.com##ytd-grid-video-renderer:has(a[href*="VoiceAISUNO"])
