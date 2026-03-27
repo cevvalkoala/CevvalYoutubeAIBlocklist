@@ -13,9 +13,9 @@ Being fed up with **AI-generated spam** in [Youtube](https://www.youtube.com) se
 Now it is one of your filters, and will update automatically along with your other filters.
 
 ## The script I used to create this list
-CevvalYoutubeAIChannels.ahk is the [Autohotkey](https://www.autohotkey.com/) v1 script I use to quickly build the list. It basically copies (when I double-press ctrl) the URL of the link I'm hovering on a youtube page. The link can be a **video** link or a **channel root page** link. The script then identifies the *user name* and the *channel ID*, and then creates 4 lines of ublock filter rules with those. Feel free to use it as well.
+CevvalYoutubeAIChannels.ahk is the [Autohotkey](https://www.autohotkey.com/) v1 script I use to quickly build the list. It basically copies (when I double-press ctrl) the URL of the link I'm hovering on a youtube page. The link can be a **video** link or a **channel root page** link. The script then identifies the *user name* and the *channel ID*, and then creates 2 lines of ublock filter rules with those. Feel free to use it as well.
 
-The script adds those 4 lines to a text file named "CevvalYoutubeAIblocklist.txt" in the same folder with the script. That's the file I use to update the list you see here. Obviously, the lines you created using the script aren't added to the list served here. To do that, you'll have to send them to me, and I'll add them to the list. I guess github has some other mechanism to update files as a community, but I'm pretty new to these stuff.
+The script adds those 2 lines to a text file named "CevvalYoutubeAIblocklist.txt" in the same folder with the script. That's the file I use to update the list you see here. Obviously, the lines you created using the script aren't added to the list served here. To do that, you'll have to send them to me, and I'll add them to the list. I guess github has some other mechanism to update files as a community, but I'm pretty new to these stuff.
 
 ## Some Other AI Blocklists
 * [Stevo's GenAI Blocklist](https://github.com/Stevoisiak/Stevos-GenAI-Blocklist) Set of uBlock Origin filters intended to hide generative AI features on various websites.
