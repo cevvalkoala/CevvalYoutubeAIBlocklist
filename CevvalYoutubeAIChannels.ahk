@@ -31,12 +31,10 @@ RegExMatch(downloadyoutubepage, """channelId"":""(UC[A-Za-z0-9_\-]+)""", youtube
 RegExMatch(downloadyoutubepage, """canonicalBaseUrl"":""/(@[^/\""]+)""", youtubeAIusername)  ; Get the user name from page source
 
 ; Write the block rules
-youtubeAIblockrulec1 := "youtube.com##ytd-video-renderer:has(a[href*=""" . youtubeAIchannelid1 . """])"
-youtubeAIblockrulec2 := "youtube.com##ytd-grid-video-renderer:has(a[href*=""" . youtubeAIchannelid1 . """])"
-youtubeAIblockruleu1 := "youtube.com##ytd-video-renderer:has(a[href*=""" . youtubeAIusername1 . """])"
-youtubeAIblockruleu2 := "youtube.com##ytd-grid-video-renderer:has(a[href*=""" . youtubeAIusername1 . """])"
+youtubeAIblockrulec := "youtube.com##ytd-video-renderer:has(a[href*=""" . youtubeAIchannelid1 . """]), ytd-grid-video-renderer:has(a[href*=""" . youtubeAIchannelid1 . """])"
+youtubeAIblockruleu := "youtube.com##ytd-video-renderer:has(a[href*=""" . youtubeAIusername1 . """]), ytd-grid-video-renderer:has(a[href*=""" . youtubeAIusername1 . """])"
 
-Clipboard := youtubeAIblockrulec1 "`n" youtubeAIblockrulec2 "`n" youtubeAIblockruleu1 "`n" youtubeAIblockruleu2  ; Put the block rules into clipboard
+Clipboard := youtubeAIblockrulec "`n" youtubeAIblockruleu  ; Put the block rules into clipboard
 
 ; Read the existing rules we have built so far, and then check for duplicates
 youtubeblocklogfile := A_ScriptDir . "\CevvalYoutubeAIblocklist.txt"

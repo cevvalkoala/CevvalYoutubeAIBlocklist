@@ -1143,3 +1143,7 @@ youtube.com##ytd-video-renderer:has(a[href*="UCwiTqtrNeJOJVKyq_bVK1Xw"]), ytd-gr
 youtube.com##ytd-video-renderer:has(a[href*="MelodicMoments-s9l"]), ytd-grid-video-renderer:has(a[href*="MelodicMoments-s9l"])
 youtube.com##ytd-video-renderer:has(a[href*="UCl3beb6pfXUTMp2MIEG8qQA"]), ytd-grid-video-renderer:has(a[href*="UCl3beb6pfXUTMp2MIEG8qQA"])
 youtube.com##ytd-video-renderer:has(a[href*="AIRLStudio"]), ytd-grid-video-renderer:has(a[href*="AIRLStudio"])
+youtube.com##ytd-video-renderer:has(a[href*="UCErr7L6v2TbK23LLbF8I7uw"]), ytd-grid-video-renderer:has(a[href*="UCErr7L6v2TbK23LLbF8I7uw"])
+youtube.com##ytd-video-renderer:has(a[href*="AnatolianHarmonics"]), ytd-grid-video-renderer:has(a[href*="AnatolianHarmonics"])
+youtube.com##ytd-video-renderer:has(a[href*="UCocjxvA7QN8Xttdj7g8mMPg"]), ytd-grid-video-renderer:has(a[href*="UCocjxvA7QN8Xttdj7g8mMPg"])
+youtube.com##ytd-video-renderer:has(a[href*="alt%C4%B1nsesmuzik"]), ytd-grid-video-renderer:has(a[href*="alt%C4%B1nsesmuzik"])
