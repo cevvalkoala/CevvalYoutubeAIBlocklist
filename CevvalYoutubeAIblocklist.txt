@@ -1,6 +1,6 @@
 ! Title: Cevval YouTube AI Music Blocklist
 ! Description: Block AI-generated music spam from appearing in youtube search results
-! Last updated: 2026-03-31
+! Last updated: 2026-04-01
 ! Expires: 1 week (update frequency)
 ! Homepage: https://github.com/cevvalkoala/CevvalYoutubeAIBlocklist/tree/main
 ! Maintained by CevvalKoala
@@ -1423,3 +1423,27 @@ youtube.com##ytd-video-renderer:has(a[href*="UCCbFD9pAkr8vojXmq_PMaEw"]), ytd-gr
 youtube.com##ytd-video-renderer:has(a[href*="AWStudioAI"]), ytd-grid-video-renderer:has(a[href*="AWStudioAI"])
 youtube.com##ytd-video-renderer:has(a[href*="UC6UgU6QfI5p7Koep2K3qTNQ"]), ytd-grid-video-renderer:has(a[href*="UC6UgU6QfI5p7Koep2K3qTNQ"])
 youtube.com##ytd-video-renderer:has(a[href*="LyricalVibeTunes"]), ytd-grid-video-renderer:has(a[href*="LyricalVibeTunes"])
+youtube.com##ytd-video-renderer:has(a[href*="UC0Qpc8heijq5iNYsaUsxDLQ"]), ytd-grid-video-renderer:has(a[href*="UC0Qpc8heijq5iNYsaUsxDLQ"])
+youtube.com##ytd-video-renderer:has(a[href*="DerunLab"]), ytd-grid-video-renderer:has(a[href*="DerunLab"])
+youtube.com##ytd-video-renderer:has(a[href*="UCo51Ue443ydQBC_4SsuWPDg"]), ytd-grid-video-renderer:has(a[href*="UCo51Ue443ydQBC_4SsuWPDg"])
+youtube.com##ytd-video-renderer:has(a[href*="emrm%C3%BCzikofficial"]), ytd-grid-video-renderer:has(a[href*="emrm%C3%BCzikofficial"])
+youtube.com##ytd-video-renderer:has(a[href*="UCjWcboDcdRZhsc0n_C4UiHQ"]), ytd-grid-video-renderer:has(a[href*="UCjWcboDcdRZhsc0n_C4UiHQ"])
+youtube.com##ytd-video-renderer:has(a[href*="Anadolu-feelings-sounds"]), ytd-grid-video-renderer:has(a[href*="Anadolu-feelings-sounds"])
+youtube.com##ytd-video-renderer:has(a[href*="UCPY5IwjDez47cMLklR0Pp2Q"]), ytd-grid-video-renderer:has(a[href*="UCPY5IwjDez47cMLklR0Pp2Q"])
+youtube.com##ytd-video-renderer:has(a[href*="k%C3%BClolmadan"]), ytd-grid-video-renderer:has(a[href*="k%C3%BClolmadan"])
+youtube.com##ytd-video-renderer:has(a[href*="UCzTT9aq9WeEUeiS5_8u9dtg"]), ytd-grid-video-renderer:has(a[href*="UCzTT9aq9WeEUeiS5_8u9dtg"])
+youtube.com##ytd-video-renderer:has(a[href*="AnatolianMelodi"]), ytd-grid-video-renderer:has(a[href*="AnatolianMelodi"])
+youtube.com##ytd-video-renderer:has(a[href*="UCwjV6FTD1W2CaPKM9bcs8cQ"]), ytd-grid-video-renderer:has(a[href*="UCwjV6FTD1W2CaPKM9bcs8cQ"])
+youtube.com##ytd-video-renderer:has(a[href*="Sazl%C4%B1yol"]), ytd-grid-video-renderer:has(a[href*="Sazl%C4%B1yol"])
+youtube.com##ytd-video-renderer:has(a[href*="UCwJAwfo0luL2zALeHMGWy9A"]), ytd-grid-video-renderer:has(a[href*="UCwJAwfo0luL2zALeHMGWy9A"])
+youtube.com##ytd-video-renderer:has(a[href*="Band4you"]), ytd-grid-video-renderer:has(a[href*="Band4you"])
+youtube.com##ytd-video-renderer:has(a[href*="UCOouDqKAZVHMaOc2lbzNQYg"]), ytd-grid-video-renderer:has(a[href*="UCOouDqKAZVHMaOc2lbzNQYg"])
+youtube.com##ytd-video-renderer:has(a[href*="AIImpactus"]), ytd-grid-video-renderer:has(a[href*="AIImpactus"])
+youtube.com##ytd-video-renderer:has(a[href*="UCC9CQXG5vtz4kMoXMVuNk6g"]), ytd-grid-video-renderer:has(a[href*="UCC9CQXG5vtz4kMoXMVuNk6g"])
+youtube.com##ytd-video-renderer:has(a[href*="MUSIC_TONGUE"]), ytd-grid-video-renderer:has(a[href*="MUSIC_TONGUE"])
+youtube.com##ytd-video-renderer:has(a[href*="UC6TCGuZi08v0xcwsN4a8w0g"]), ytd-grid-video-renderer:has(a[href*="UC6TCGuZi08v0xcwsN4a8w0g"])
+youtube.com##ytd-video-renderer:has(a[href*="rfm97_music"]), ytd-grid-video-renderer:has(a[href*="rfm97_music"])
+youtube.com##ytd-video-renderer:has(a[href*="UCvRm3RXsbwBQUKlP67SZJuA"]), ytd-grid-video-renderer:has(a[href*="UCvRm3RXsbwBQUKlP67SZJuA"])
+youtube.com##ytd-video-renderer:has(a[href*="nostalgicnotes0"]), ytd-grid-video-renderer:has(a[href*="nostalgicnotes0"])
+youtube.com##ytd-video-renderer:has(a[href*="UCecWz3cs0w7AcS4cUduce7A"]), ytd-grid-video-renderer:has(a[href*="UCecWz3cs0w7AcS4cUduce7A"])
+youtube.com##ytd-video-renderer:has(a[href*="SHINAYAKALOFImusic"]), ytd-grid-video-renderer:has(a[href*="SHINAYAKALOFImusic"])
