@@ -1,7 +1,7 @@
 Being fed up with **AI-generated spam** in [Youtube](https://www.youtube.com) search results, I created this list. I'll update it every now and then. Feel **free** (as in beer and speech both) to use it.
 
-## How to add it to Ublock?
-1. Open [Ublock's](https://github.com/gorhill/uBlock) dashboard (Click on the uBlock Origin Extension. In the bottom right, there is a cog-wheel symbol named the dashboard. Click it.)
+## How to add it to uBlock Origin?
+1. Open [uBlock Origin's](https://github.com/gorhill/uBlock) dashboard (Click on the uBlock Origin Extension. In the bottom right, there is a cog-wheel symbol named the dashboard. Click it.)
 2. To the top of the dashboard, click on the tab that says "Filter lists"
 3. Scroll down to "Import"
 4. Copy and paste this URL into the box:
