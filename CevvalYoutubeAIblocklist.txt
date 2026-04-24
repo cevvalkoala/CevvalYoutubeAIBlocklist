@@ -1670,3 +1670,7 @@ youtube.com##ytd-video-renderer:has(a[href*="UCmt17Pr2QUp9GzPfxZon7Aw"]), ytd-gr
 youtube.com##ytd-video-renderer:has(a[href*="Maikaz"]), ytd-grid-video-renderer:has(a[href*="Maikaz"])
 youtube.com##ytd-video-renderer:has(a[href*="UCty3WHK2pZf5HijRUsxH_1w"]), ytd-grid-video-renderer:has(a[href*="UCty3WHK2pZf5HijRUsxH_1w"])
 youtube.com##ytd-video-renderer:has(a[href*="stormfury_"]), ytd-grid-video-renderer:has(a[href*="stormfury_"])
+youtube.com##ytd-video-renderer:has(a[href*="UC_kxpTnH5tjw-JgZmbbDG5w"]), ytd-grid-video-renderer:has(a[href*="UC_kxpTnH5tjw-JgZmbbDG5w"])
+youtube.com##ytd-video-renderer:has(a[href*="ExportErrorMusic"]), ytd-grid-video-renderer:has(a[href*="ExportErrorMusic"])
+youtube.com##ytd-video-renderer:has(a[href*="UCBvToMEKyHbwUIpXaQgZA2Q"]), ytd-grid-video-renderer:has(a[href*="UCBvToMEKyHbwUIpXaQgZA2Q"])
+youtube.com##ytd-video-renderer:has(a[href*="TheFoolsQueenMetal"]), ytd-grid-video-renderer:has(a[href*="TheFoolsQueenMetal"])
