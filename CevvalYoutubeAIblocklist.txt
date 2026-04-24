@@ -1668,3 +1668,5 @@ youtube.com##ytd-video-renderer:has(a[href*="UC_ol21o2bdTOCWJ1y6IG1Kw"]), ytd-gr
 youtube.com##ytd-video-renderer:has(a[href*=""]), ytd-grid-video-renderer:has(a[href*=""])
 youtube.com##ytd-video-renderer:has(a[href*="UCmt17Pr2QUp9GzPfxZon7Aw"]), ytd-grid-video-renderer:has(a[href*="UCmt17Pr2QUp9GzPfxZon7Aw"])
 youtube.com##ytd-video-renderer:has(a[href*="Maikaz"]), ytd-grid-video-renderer:has(a[href*="Maikaz"])
+youtube.com##ytd-video-renderer:has(a[href*="UCty3WHK2pZf5HijRUsxH_1w"]), ytd-grid-video-renderer:has(a[href*="UCty3WHK2pZf5HijRUsxH_1w"])
+youtube.com##ytd-video-renderer:has(a[href*="stormfury_"]), ytd-grid-video-renderer:has(a[href*="stormfury_"])
