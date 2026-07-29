@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: Cevval YouTube AI Music Blocklist
 ! Description: Block AI-generated music spam from appearing in youtube search results
-! Last updated: 2026-07-27
+! Last updated: 2026-07-29
 ! Expires: 1 week (update frequency)
 ! Homepage: https://github.com/cevvalkoala/CevvalYoutubeAIBlocklist/tree/main
 ! Maintained by CevvalKoala
@@ -1859,3 +1859,29 @@ youtube.com##ytd-video-renderer:has(a[href*="UCj9K8sk6ELlbi-r0SmnjJGA"]), ytd-gr
 youtube.com##ytd-video-renderer:has(a[href*=""]), ytd-grid-video-renderer:has(a[href*=""])
 youtube.com##ytd-video-renderer:has(a[href*="UC1GtUrhXgr5TXvoJz-JSVPA"]), ytd-grid-video-renderer:has(a[href*="UC1GtUrhXgr5TXvoJz-JSVPA"])
 youtube.com##ytd-video-renderer:has(a[href*="SieReNaDa"]), ytd-grid-video-renderer:has(a[href*="SieReNaDa"])
+youtube.com##ytd-video-renderer:has(a[href*="UCCzFjbz5ldL3miq3qckmh3Q"]), ytd-grid-video-renderer:has(a[href*="UCCzFjbz5ldL3miq3qckmh3Q"])
+youtube.com##ytd-video-renderer:has(a[href*="AlaTurkaWorld"]), ytd-grid-video-renderer:has(a[href*="AlaTurkaWorld"])
+youtube.com##ytd-video-renderer:has(a[href*="UCrVNRVsGxuL49j1Ups1Qqqw"]), ytd-grid-video-renderer:has(a[href*="UCrVNRVsGxuL49j1Ups1Qqqw"])
+youtube.com##ytd-video-renderer:has(a[href*="kar%C4%B1%C5%9F%C4%B1kkaset2"]), ytd-grid-video-renderer:has(a[href*="kar%C4%B1%C5%9F%C4%B1kkaset2"])
+youtube.com##ytd-video-renderer:has(a[href*="UC97IaIoRSTmkrcxpXbivwvQ"]), ytd-grid-video-renderer:has(a[href*="UC97IaIoRSTmkrcxpXbivwvQ"])
+youtube.com##ytd-video-renderer:has(a[href*="KayipAnadolu"]), ytd-grid-video-renderer:has(a[href*="KayipAnadolu"])
+youtube.com##ytd-video-renderer:has(a[href*="UC6e7LmZFbtIutLdyeqwglng"]), ytd-grid-video-renderer:has(a[href*="UC6e7LmZFbtIutLdyeqwglng"])
+youtube.com##ytd-video-renderer:has(a[href*="EmrahBaykoofficial"]), ytd-grid-video-renderer:has(a[href*="EmrahBaykoofficial"])
+youtube.com##ytd-video-renderer:has(a[href*="UCYGK9Swn590kd5R3-xgQvuA"]), ytd-grid-video-renderer:has(a[href*="UCYGK9Swn590kd5R3-xgQvuA"])
+youtube.com##ytd-video-renderer:has(a[href*="%E5%81%A5%E5%BA%B7%E9%BA%B5Hinoodle_313"]), ytd-grid-video-renderer:has(a[href*="%E5%81%A5%E5%BA%B7%E9%BA%B5Hinoodle_313"])
+youtube.com##ytd-video-renderer:has(a[href*="UCJwsZIVEJhsPLrgSdHJrc2g"]), ytd-grid-video-renderer:has(a[href*="UCJwsZIVEJhsPLrgSdHJrc2g"])
+youtube.com##ytd-video-renderer:has(a[href*="KyViSkZ"]), ytd-grid-video-renderer:has(a[href*="KyViSkZ"])
+youtube.com##ytd-video-renderer:has(a[href*="UCOwdwOQa9gcUSsSfB7x7nsA"]), ytd-grid-video-renderer:has(a[href*="UCOwdwOQa9gcUSsSfB7x7nsA"])
+youtube.com##ytd-video-renderer:has(a[href*="InternationalAIMusic"]), ytd-grid-video-renderer:has(a[href*="InternationalAIMusic"])
+youtube.com##ytd-video-renderer:has(a[href*="UCh0RH6wJPKs2KDcTSJWWNGA"]), ytd-grid-video-renderer:has(a[href*="UCh0RH6wJPKs2KDcTSJWWNGA"])
+youtube.com##ytd-video-renderer:has(a[href*="Sheilaalien"]), ytd-grid-video-renderer:has(a[href*="Sheilaalien"])
+youtube.com##ytd-video-renderer:has(a[href*="UCYLiWmLmmgBR_fLR9xfvdJw"]), ytd-grid-video-renderer:has(a[href*="UCYLiWmLmmgBR_fLR9xfvdJw"])
+youtube.com##ytd-video-renderer:has(a[href*="ewithuArcive"]), ytd-grid-video-renderer:has(a[href*="ewithuArcive"])
+youtube.com##ytd-video-renderer:has(a[href*="UCmhVbtc2-tUvovq7rlDaAKw"]), ytd-grid-video-renderer:has(a[href*="UCmhVbtc2-tUvovq7rlDaAKw"])
+youtube.com##ytd-video-renderer:has(a[href*="ShadowyVeil"]), ytd-grid-video-renderer:has(a[href*="ShadowyVeil"])
+youtube.com##ytd-video-renderer:has(a[href*="UCSthfM__-som_meovwac6XA"]), ytd-grid-video-renderer:has(a[href*="UCSthfM__-som_meovwac6XA"])
+youtube.com##ytd-video-renderer:has(a[href*="ukrpatriotsdotcom"]), ytd-grid-video-renderer:has(a[href*="ukrpatriotsdotcom"])
+youtube.com##ytd-video-renderer:has(a[href*="UCPi6LG91RpGCePOyu1IVZTA"]), ytd-grid-video-renderer:has(a[href*="UCPi6LG91RpGCePOyu1IVZTA"])
+youtube.com##ytd-video-renderer:has(a[href*="KrisvsTheWorld"]), ytd-grid-video-renderer:has(a[href*="KrisvsTheWorld"])
+youtube.com##ytd-video-renderer:has(a[href*="UCFe9-vSsfpnuKFAHI4R4qgg"]), ytd-grid-video-renderer:has(a[href*="UCFe9-vSsfpnuKFAHI4R4qgg"])
+youtube.com##ytd-video-renderer:has(a[href*="ErryTosh"]), ytd-grid-video-renderer:has(a[href*="ErryTosh"])
