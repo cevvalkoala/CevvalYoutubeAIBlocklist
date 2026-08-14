@@ -31,8 +31,8 @@ RegExMatch(downloadyoutubepage, """channelId"":""(UC[A-Za-z0-9_\-]+)""", youtube
 RegExMatch(downloadyoutubepage, """canonicalBaseUrl"":""/(@[^/\""]+)""", youtubeAIusername)  ; Get the user name from page source
 
 ; Write the block rules
-youtubeAIblockrulec := "youtube.com##ytd-video-renderer:has(a[href*=""" . youtubeAIchannelid1 . """]), ytd-grid-video-renderer:has(a[href*=""" . youtubeAIchannelid1 . """])"
-youtubeAIblockruleu := "youtube.com##ytd-video-renderer:has(a[href*=""" . youtubeAIusername1 . """]), ytd-grid-video-renderer:has(a[href*=""" . youtubeAIusername1 . """])"
+youtubeAIblockrulec := "youtube.com##:is(ytd-video-renderer, ytd-grid-video-renderer):has(a[href*=""" . youtubeAIchannelid1 . """])"
+youtubeAIblockruleu := "youtube.com##:is(ytd-video-renderer, ytd-grid-video-renderer):has(a[href*=""" . youtubeAIusername1 . """])"
 
 Clipboard := youtubeAIblockrulec "`n" youtubeAIblockruleu  ; Put the block rules into clipboard
 
