@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: Cevval YouTube AI Music Blocklist
 ! Description: Block AI-generated music spam from appearing in youtube search results
-! Last updated: 2026-08-14
+! Last updated: 2026-09-16
 ! Expires: 1 week (update frequency)
 ! Homepage: https://github.com/cevvalkoala/CevvalYoutubeAIBlocklist/tree/main
 ! Maintained by CevvalKoala
@@ -1905,3 +1905,5 @@ youtube.com##:is(ytd-video-renderer, ytd-grid-video-renderer):has(a[href*="UCj6P
 youtube.com##:is(ytd-video-renderer, ytd-grid-video-renderer):has(a[href*="DerdoMusicc"])
 youtube.com##:is(ytd-video-renderer, ytd-grid-video-renderer):has(a[href*="UCcs-LtQgV8OJ1zBzqm6aVig"])
 youtube.com##:is(ytd-video-renderer, ytd-grid-video-renderer):has(a[href*="SisliT%C3%BCrk%C3%BCler"])
+youtube.com##:is(ytd-video-renderer, ytd-grid-video-renderer):has(a[href*="UCj3460Ylt4JEcEiW6PxCH9Q"])
+youtube.com##:is(ytd-video-renderer, ytd-grid-video-renderer):has(a[href*="spacewavecr"])
