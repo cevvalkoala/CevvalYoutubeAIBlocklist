@@ -1856,7 +1856,6 @@ youtube.com##:is(ytd-video-renderer, ytd-grid-video-renderer):has(a[href*="Beats
 youtube.com##:is(ytd-video-renderer, ytd-grid-video-renderer):has(a[href*="UC0NW4P3ChLTzm9zWMTdb8zg"])
 youtube.com##:is(ytd-video-renderer, ytd-grid-video-renderer):has(a[href*="CyberBeatsMusic"])
 youtube.com##:is(ytd-video-renderer, ytd-grid-video-renderer):has(a[href*="UCj9K8sk6ELlbi-r0SmnjJGA"])
-youtube.com##:is(ytd-video-renderer, ytd-grid-video-renderer):has(a[href*=""])
 youtube.com##:is(ytd-video-renderer, ytd-grid-video-renderer):has(a[href*="UC1GtUrhXgr5TXvoJz-JSVPA"])
 youtube.com##:is(ytd-video-renderer, ytd-grid-video-renderer):has(a[href*="SieReNaDa"])
 youtube.com##:is(ytd-video-renderer, ytd-grid-video-renderer):has(a[href*="UCCzFjbz5ldL3miq3qckmh3Q"])
