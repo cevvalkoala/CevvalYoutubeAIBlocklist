@@ -29,8 +29,12 @@ RegExMatch(downloadyoutubepage, "i)<link[^>]*\brel\s*=\s*[""']canonical[""'][^>]
 RegExMatch(downloadyoutubepage, """channelId"":""(UC[A-Za-z0-9_\-]+)""", youtubeAIchannelid)
 
 RegExMatch(downloadyoutubepage, """canonicalBaseUrl"":""/(@[^/\""]+)""", youtubeAIusername)  ; Get the user name from page source
+If (youtubeAIusername1 <> "" And SubStr(youtubeAIusername1, 1, 1) <> "@") ; Make sure the username always starts with @
+    youtubeAIusername1 := "@" . youtubeAIusername1
 
 ; Write the block rules
+If (youtubeAIchannelid1 = "" Or youtubeAIusername1 = "")  ; Just to be safe. We wouldn't want to put blank * lines in the list
+Return
 youtubeAIblockrulec := "youtube.com##:is(ytd-video-renderer, ytd-grid-video-renderer):has(a[href*=""" . youtubeAIchannelid1 . """])"
 youtubeAIblockruleu := "youtube.com##:is(ytd-video-renderer, ytd-grid-video-renderer):has(a[href*=""" . youtubeAIusername1 . """])"
 
