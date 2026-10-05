@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: Cevval YouTube AI Music Blocklist
 ! Description: Block AI-generated music spam from appearing in youtube search results
-! Last updated: 2026-10-02
+! Last updated: 2026-10-05
 ! Expires: 1 week (update frequency)
 ! Homepage: https://github.com/cevvalkoala/CevvalYoutubeAIBlocklist/tree/main
 ! Maintained by CevvalKoala
@@ -1982,3 +1982,37 @@ youtube.com##:is(ytd-video-renderer, ytd-grid-video-renderer):has(a[href*="UCEr3
 youtube.com##:is(ytd-video-renderer, ytd-grid-video-renderer):has(a[href*="@AIKA_INKAZ"])
 youtube.com##:is(ytd-video-renderer, ytd-grid-video-renderer):has(a[href*="UCorLybefJdHZrwM1izbmPPg"])
 youtube.com##:is(ytd-video-renderer, ytd-grid-video-renderer):has(a[href*="@magpiepicapica"])
+youtube.com##:is(ytd-video-renderer, ytd-grid-video-renderer):has(a[href*="UCDvd6Zol_aN1syxzUFKqZ2Q"])
+youtube.com##:is(ytd-video-renderer, ytd-grid-video-renderer):has(a[href*="@arabeskk45"])
+youtube.com##:is(ytd-video-renderer, ytd-grid-video-renderer):has(a[href*="UCPieTuAwhm9ll7LXGG46P2g"])
+youtube.com##:is(ytd-video-renderer, ytd-grid-video-renderer):has(a[href*="@sonsesb%C3%BCk%C3%BCc%C3%BC"])
+youtube.com##:is(ytd-video-renderer, ytd-grid-video-renderer):has(a[href*="UCqHH7P8A5YBpxfQFG6FJA-Q"])
+youtube.com##:is(ytd-video-renderer, ytd-grid-video-renderer):has(a[href*="@CoverPulse"])
+youtube.com##:is(ytd-video-renderer, ytd-grid-video-renderer):has(a[href*="UCdQZ4UHNXSS51WpBv6tOHzA"])
+youtube.com##:is(ytd-video-renderer, ytd-grid-video-renderer):has(a[href*="@RitimVibe"])
+youtube.com##:is(ytd-video-renderer, ytd-grid-video-renderer):has(a[href*="UCtZqUkx3So8WhN-VNLof1_A"])
+youtube.com##:is(ytd-video-renderer, ytd-grid-video-renderer):has(a[href*="@AnatolianModernEcho"])
+youtube.com##:is(ytd-video-renderer, ytd-grid-video-renderer):has(a[href*="UCpW4ywY57L3zthrtYmXpTzw"])
+youtube.com##:is(ytd-video-renderer, ytd-grid-video-renderer):has(a[href*="@ModernEzgiler"])
+youtube.com##:is(ytd-video-renderer, ytd-grid-video-renderer):has(a[href*="UC_U9rnsKYZYWpDVqo_ynrhw"])
+youtube.com##:is(ytd-video-renderer, ytd-grid-video-renderer):has(a[href*="@anilmahirkivci9916"])
+youtube.com##:is(ytd-video-renderer, ytd-grid-video-renderer):has(a[href*="UCszPExgPxJFEhCqPo3-5P5A"])
+youtube.com##:is(ytd-video-renderer, ytd-grid-video-renderer):has(a[href*="@RamenVIKY"])
+youtube.com##:is(ytd-video-renderer, ytd-grid-video-renderer):has(a[href*="UCz-C57CYzXUS0AxbBOorELg"])
+youtube.com##:is(ytd-video-renderer, ytd-grid-video-renderer):has(a[href*="@AiGENT"])
+youtube.com##:is(ytd-video-renderer, ytd-grid-video-renderer):has(a[href*="UCTSdiVEy8UPiUREcBKB9KWg"])
+youtube.com##:is(ytd-video-renderer, ytd-grid-video-renderer):has(a[href*="@DogyCZE25"])
+youtube.com##:is(ytd-video-renderer, ytd-grid-video-renderer):has(a[href*="UC2rAfS8dxUF9KX_CmFzynrQ"])
+youtube.com##:is(ytd-video-renderer, ytd-grid-video-renderer):has(a[href*="@HardStyle_ai"])
+youtube.com##:is(ytd-video-renderer, ytd-grid-video-renderer):has(a[href*="UCrgm4Md-xqgp7OJUu8ZrDrQ"])
+youtube.com##:is(ytd-video-renderer, ytd-grid-video-renderer):has(a[href*="@fan354"])
+youtube.com##:is(ytd-video-renderer, ytd-grid-video-renderer):has(a[href*="UClsK6ozTWopChcpNhsKnbug"])
+youtube.com##:is(ytd-video-renderer, ytd-grid-video-renderer):has(a[href*="@KILLUSALL92"])
+youtube.com##:is(ytd-video-renderer, ytd-grid-video-renderer):has(a[href*="UCxz046qnwt8uTjee0N3LthQ"])
+youtube.com##:is(ytd-video-renderer, ytd-grid-video-renderer):has(a[href*="@ChiaoxGenZone"])
+youtube.com##:is(ytd-video-renderer, ytd-grid-video-renderer):has(a[href*="UC3oySz1roMFQpXFca73UFzQ"])
+youtube.com##:is(ytd-video-renderer, ytd-grid-video-renderer):has(a[href*="@Benova_Official"])
+youtube.com##:is(ytd-video-renderer, ytd-grid-video-renderer):has(a[href*="UCDCbz-7-lv57eed_FuAX2vw"])
+youtube.com##:is(ytd-video-renderer, ytd-grid-video-renderer):has(a[href*="@ai_anime_and_music"])
+youtube.com##:is(ytd-video-renderer, ytd-grid-video-renderer):has(a[href*="UCWMdglvTgftjab7PvDzc9eg"])
+youtube.com##:is(ytd-video-renderer, ytd-grid-video-renderer):has(a[href*="@aellis-create"])
