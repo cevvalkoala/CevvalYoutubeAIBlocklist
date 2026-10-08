@@ -1,6 +1,10 @@
 Being fed up with **AI-generated spam** on [YouTube](https://www.youtube.com) search results, I created this list. I'll update it every now and then. Feel **free** (as in beer and speech both) to use it.
 
 ## How to add it to uBlock Origin?
+Easy way:
+Just [click here](https://subscribe.adblockplus.org/?location=https%3A%2F%2Fraw%2Egithubusercontent%2Ecom%2Fcevvalkoala%2FCevvalYoutubeAIBlocklist%2Fmain%2FCevvalYoutubeAIblocklist%2Etxt&title=Cevval%20YouTube%20AI%20Music%20Blocklist) to subscribe to this list automatically on uBlock Origin.
+
+Manual way:
 1. Open [uBlock Origin's](https://github.com/gorhill/uBlock) dashboard (Click on the uBlock Origin Extension. In the bottom right, there is a cog-wheel symbol named the dashboard. Click it.)
 2. To the top of the dashboard, click on the tab that says "Filter lists"
 3. Scroll down to "Import"
