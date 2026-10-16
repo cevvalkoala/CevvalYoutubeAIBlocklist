@@ -23,6 +23,7 @@ The script adds those 2 lines to a text file named [`CevvalYoutubeAIblocklist.tx
 ## Some Other AI Blocklists
 * [Stevo's GenAI Blocklist](https://github.com/Stevoisiak/Stevos-GenAI-Blocklist) Set of uBlock Origin filters intended to hide generative AI features on various websites.
 * [AI uBlock Origin Blacklist](https://github.com/alvi-se/ai-ublock-blacklist) A uBlock Origin blocklist of AI content farms.
+* [EnAIgh](https://github.com/cevvalkoala/EnAIgh) Browser addon to block videos marked by YouTube as "Made with AI".
 
 ## Contact
 Your recommendations and ideas are most welcome via the [issues](https://github.com/cevvalkoala/CevvalYoutubeAIBlocklist/issues) thingie on top of the page, or at cevval[at]cevvalkoala.com
